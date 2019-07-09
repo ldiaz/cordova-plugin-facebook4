@@ -1,7 +1,8 @@
 {
   "name": "issue-ionic",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }

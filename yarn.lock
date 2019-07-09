@@ -1848,6 +1848,11 @@ copy-webpack-plugin@4.6.0:
     p-limit "^1.0.0"
     serialize-javascript "^1.4.0"
 
+cordova-plugin-facebook4@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/cordova-plugin-facebook4/-/cordova-plugin-facebook4-5.0.0.tgz#91cfbe935b91ff1f63fbd8ca7d3a30aea981a713"
+  integrity sha512-g8Ov9JVX3zFdaGNexLOad1PNAU13U5bMMWWWyuaQqm2a8jUECSG7G+qU1ZpzlwA5o5O4YdzEdJQ2KDkz0gkdLw==
+
 core-js@^2.2.0, core-js@^2.4.0, core-js@^2.5.4:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.9.tgz#6b4b214620c834152e179323727fc19741b084f2"

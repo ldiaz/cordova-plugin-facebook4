@@ -1,5 +1,5 @@
 {
-  "appId": "com.sudshare.ionicIssue",
+  "appId": "com.leonardo.FBDemoApp",
   "appName": "issue-ionic",
   "bundledWebRuntime": false,
   "npmClient": "yarn",
