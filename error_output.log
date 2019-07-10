@@ -1,0 +1,62 @@
+2019-07-09 23:30:05.852288-0500 App[32344:3358188] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/leonardo/Library/Developer/CoreSimulator/Devices/CC090A63-1C2E-4D78-8EBB-A34F3D38D2F4/data/Containers/Data/Application/78FD459C-8F13-4A90-AF2B-CFC8E87C5B9E/Library/Cookies/com.leonardo.FBDemoApp.binarycookies
+Loading network plugin   
+2019-07-09 23:30:06.016409-0500 App[32344:3358188] CAPKeyboard: resize mode - native
+2019-07-09 23:30:06.038900-0500 App[32344:3358188] Starting Facebook Connect plugin
+⚡️  Loading app at capacitor://localhost...   
+2019-07-09 23:30:06.090014-0500 App[32344:3358188] +[FBSDKBasicUtility objectForJSONString:error:]: unrecognized selector sent to class 0x10de44ae0
+2019-07-09 23:30:06.099055-0500 App[32344:3358188] *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '+[FBSDKBasicUtility objectForJSONString:error:]: unrecognized selector sent to class 0x10de44ae0'
+*** First throw call stack:
+(
+	0   CoreFoundation                      0x00000001116db6fb __exceptionPreprocess + 331
+	1   libobjc.A.dylib                     0x000000010ef22ac5 objc_exception_throw + 48
+	2   CoreFoundation                      0x00000001116f99b4 +[NSObject(NSObject) doesNotRecognizeSelector:] + 132
+	3   CoreFoundation                      0x00000001116e0443 ___forwarding___ + 1443
+	4   CoreFoundation                      0x00000001116e2238 _CF_forwarding_prep_0 + 120
+	5   CordovaPlugins                      0x000000010ddc0037 +[FBSDKAppEventsUtility retrievePersistedAnonymousID] + 231
+	6   CordovaPlugins                      0x000000010ddbf469 +[FBSDKAppEventsUtility anonymousID] + 47
+	7   CordovaPlugins                      0x000000010ddd05a4 +[FBSDKAppEvents initialize] + 180
+	8   libobjc.A.dylib                     0x000000010ef23698 CALLING_SOME_+initialize_METHOD + 19
+	9   libobjc.A.dylib                     0x000000010ef23a2a initializeNonMetaClass + 269
+	10  libobjc.A.dylib                     0x000000010ef2454f _ZL24initializeAndMaybeRelockP10objc_classP11objc_objectR8mutex_ttILb0EEb + 144
+	11  libobjc.A.dylib                     0x000000010ef2a3e2 lookUpImpOrForward + 205
+	12  libobjc.A.dylib                     0x000000010ef380d4 _objc_msgSend_uncached + 68
+	13  CordovaPlugins                      0x000000010dda1b03 +[FBSDKApplicationDelegate initializeSDK:] + 230
+	14  CordovaPlugins                      0x000000010dda19c7 +[FBSDKApplicationDelegate initializeWithLaunchData:] + 61
+	15  CoreFoundation                      0x000000011161d5ec __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__ + 12
+	16  CoreFoundation                      0x000000011161ca6f _CFXRegistrationPost + 447
+	17  CoreFoundation                      0x000000011161c7b3 ___CFXNotificationPost_block_invoke + 227
+	18  CoreFoundation                      0x00000001117005e2 -[_CFXNotificationRegistrar find:object:observer:enumerator:] + 1858
+	19  CoreFoundation                      0x000000011161c101 _CFXNotificationPost + 977
+	20  Foundation                          0x000000010e9ceeaf -[NSNotificationCenter postNotificationName:object:userInfo:] + 66
+	21  UIKitCore                           0x000000011ef54fab -[UIApplication _callInitializationDelegatesForMainScene:transitionContext:] + 4698
+	22  UIKitCore                           0x000000011ef5a0c6 -[UIApplication _runWithMainScene:transitionContext:completion:] + 1617
+	23  UIKitCore                           0x000000011e79f6d6 __111-[__UICanvasLifecycleMonitor_Compatability _scheduleFirstCommitForScene:transition:firstActivation:completion:]_block_invoke + 904
+	24  UIKitCore                           0x000000011e7a7fce +[_UICanvas _enqueuePostSettingUpdateTransactionBlock:] + 153
+	25  UIKitCore                           0x000000011e79f2ec -[__UICanvasLifecycleMonitor_Compatability _scheduleFirstCommitForScene:transition:firstActivation:completion:] + 236
+	26  UIKitCore                           0x000000011e79fc48 -[__UICanvasLifecycleMonitor_Compatability activateEventsOnly:withContext:completion:] + 1091
+	27  UIKitCore                           0x000000011e79dfba __82-[_UIApplicationCanvas _transitionLifecycleStateWithTransitionContext:completion:]_block_invoke + 782
+	28  UIKitCore                           0x000000011e79dc71 -[_UIApplicationCanvas _transitionLifecycleStateWithTransitionContext:completion:] + 433
+	29  UIKitCore                           0x000000011e7a29b6 __125-[_UICanvasLifecycleSettingsDiffAction performActionsForCanvas:withUpdatedScene:settingsDiff:fromSettings:transitionContext:]_block_invoke + 576
+	30  UIKitCore                           0x000000011e7a3610 _performActionsWithDelayForTransitionContext + 100
+	31  UIKitCore                           0x000000011e7a271d -[_UICanvasLifecycleSettingsDiffAction performActionsForCanvas:withUpdatedScene:settingsDiff:fromSettings:transitionContext:] + 223
+	32  UIKitCore                           0x000000011e7a76d0 -[_UICanvas scene:didUpdateWithDiff:transitionContext:completion:] + 392
+	33  UIKitCore                           0x000000011ef589a8 -[UIApplication workspace:didCreateScene:withTransitionContext:completion:] + 514
+	34  UIKitCore                           0x000000011eb0fdfa -[UIApplicationSceneClientAgent scene:didInitializeWithEvent:completion:] + 361
+	35  FrontBoardServices                  0x000000011dd89125 -[FBSSceneImpl _didCreateWithTransitionContext:completion:] + 448
+	36  FrontBoardServices                  0x000000011dd92ed6 __56-[FBSWorkspace client:handleCreateScene:withCompletion:]_block_invoke_2 + 283
+	37  FrontBoardServices                  0x000000011dd92700 __40-[FBSWorkspace _performDelegateCallOut:]_block_invoke + 53
+	38  libdispatch.dylib                   0x0000000118fabdb5 _dispatch_client_callout + 8
+	39  libdispatch.dylib                   0x0000000118faf2ba _dispatch_block_invoke_direct + 300
+	40  FrontBoardServices                  0x000000011ddc4146 __FBSSERIALQUEUE_IS_CALLING_OUT_TO_A_BLOCK__ + 30
+	41  FrontBoardServices                  0x000000011ddc3dfe -[FBSSerialQueue _performNext] + 451
+	42  FrontBoardServices                  0x000000011ddc4393 -[FBSSerialQueue _performNextFromRunLoopSource] + 42
+	43  CoreFoundation                      0x0000000111642be1 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 17
+	44  CoreFoundation                      0x0000000111642463 __CFRunLoopDoSources0 + 243
+	45  CoreFoundation                      0x000000011163cb1f __CFRunLoopRun + 1231
+	46  CoreFoundation                      0x000000011163c302 CFRunLoopRunSpecific + 626
+	47  GraphicsServices                    0x0000000113dcf2fe GSEventRunModal + 65
+	48  UIKitCore                           0x000000011ef5bba2 UIApplicationMain + 140
+	49  App                                 0x000000010d69d1fb main + 75
+	50  libdyld.dylib                       0x0000000119020541 start + 1
+)
+libc++abi.dylib: terminating with uncaught exception of type NSException
