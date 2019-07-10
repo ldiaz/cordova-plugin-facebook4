@@ -12,7 +12,7 @@ executed commands to create the app:
     npx cap open ios
     # until this point ios app works fine in emulator
     # now add the cordova-plugin-facebook4
-    ionic cordova plugin add cordova-plugin-facebook4 --save --variable APP_ID="1045737225601097" --variable APP_NAME="SudShare"
+    ionic cordova plugin add cordova-plugin-facebook4 --save --variable APP_ID="123456789" --variable APP_NAME="FBDemoApp"
     # in capacitor apps, those cordova params doesn't do much, as explained here: 
     # https://www.joshmorony.com/using-cordova-plugins-that-require-install-variables-with-capacitor/
 
