@@ -3,5 +3,8 @@
   "appName": "issue-ionic",
   "bundledWebRuntime": false,
   "npmClient": "yarn",
-  "webDir": "www"
+  "webDir": "www",
+  "ios": {
+    "cordovaLinkerFlags": ["-ObjC"]
+  }
 }
